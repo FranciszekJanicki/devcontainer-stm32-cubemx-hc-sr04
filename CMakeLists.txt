@@ -42,6 +42,10 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     "Core/Src/hc_sr04.cpp"
     "Core/Src/gpio.c"
     "Core/Src/tim.c"
+    "Core/Inc/gpio.hpp"
+    "Core/Inc/utility.hpp"
+    "Core/Inc/interrupts.hpp"
+    "Core/Src/interrupts.cpp"
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
